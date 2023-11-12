@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+.login-suc{
+  @apply bg-green-500 text-green-700 border border-green-700 text-center text-3xl p-5;
+}
+
+.login-err{
+  @apply bg-red-500 text-red-700 border border-red-700 text-center text-3xl p-5;
+}
+
+.login{
+  @apply hidden;
+}
+
+/* globals.css */
+.gradient-bg {
+  background: linear-gradient(to right, #4a148c, #1a237e); /* Adapte as cores conforme necessário */
+}
+
