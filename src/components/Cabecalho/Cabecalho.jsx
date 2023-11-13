@@ -8,7 +8,7 @@ const Cabecalho = () => {
         <ul className="flex space-x-4">
           <li><Link href="/">Início</Link></li>
           <li><Link href="/Login">Login</Link></li>
-          <li><Link href="/Cadastro">Cadastro</Link></li>
+          
           <li><Link href="/Bicicleta">Bike</Link></li>
           <li><Link href="/Contato">Contato</Link></li>
           <li><Link href="/Sobre">Sobre</Link></li>

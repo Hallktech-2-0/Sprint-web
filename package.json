@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.0.2",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "^14.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-responsive-carousel": "^3.2.23"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.2",
