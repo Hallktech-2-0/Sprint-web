@@ -2,9 +2,7 @@ import React from 'react';
 
 const Inicio = () => {
   return (
-    <div className="bg-gradient-to-b from-blue-900 to-gray-900 text-white min-h-screen">
-      {/* Conteúdo da página inicial */}
-      <div className="container mx-auto text-center py-24">
+<div className="bg-cover bg-center h-screen" style={{ backgroundImage: "url('/bike5.png')" }}>      <div className="container mx-auto text-center py-24">
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
           Bem-vindo à Haalk-Tech 
         </h2>
