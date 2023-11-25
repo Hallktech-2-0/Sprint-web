@@ -57,7 +57,7 @@ const equipe = [
   { nome: "Giovanna Alvarez Dos Santos", cargo: "Gerente de Projetos" },
   { nome: "Sarah Oliveira Souza Rosa", cargo: "Desenvolvedora Python" },
   { nome: "Murilo Carlos Matos dos Santos", cargo: "Desenvolvedor Java" },
-  { nome: "Gabriel Lima", cargo: "Desenvolvedor Frontend" },
+  { nome: "Gabriel Lima", cargo: "Jovem aprendiz" },
 ];
 
 export default Sobre;
